@@ -328,6 +328,13 @@ header .container nav .middle .block_2 {
   header .container nav .middle .block_1 a p {
     padding: 30px 0;
     margin: 0;
+    -webkit-transition: 0.1s ease;
+    transition: 0.1s ease;
+  }
+  header .container nav .middle .block_1 a p:hover {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
   }
   header .container nav .middle .block_1.active {
     top: 160px;
@@ -339,6 +346,11 @@ header .container nav .middle .block_2 {
   header .container nav .middle .block_2 a {
     display: block;
     padding: 25px;
+  }
+  header .container nav .middle .block_2 a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    font-weight: 0;
   }
   header .container nav .middle .block_2 .block {
     width: 50px;
@@ -1146,6 +1158,25 @@ main .Trading-Made-Easy .container img.back:nth-child(5) {
     right: -12%;
   }
 }
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .container img.back:nth-child(1) {
+    top: 52%;
+    left: 17%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(2) {
+    top: 0%;
+    right: 7.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(3), main .Trading-Made-Easy .container img.back:nth-child(4) {
+    left: -2.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(4) {
+    top: 12.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(5) {
+    right: -12%;
+  }
+}
 main .Trading-Made-Easy .blockOut {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1468,6 +1499,23 @@ main .All-About-Market-Caps .right img:nth-child(3) {
     right: 25%;
   }
 }
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .right img:nth-child(1) {
+    top: 6%;
+    right: 20%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(2), main .All-About-Market-Caps .right img:nth-child(3) {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    top: 81%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(2) {
+    right: 8%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(3) {
+    right: 15%;
+  }
+}
 main .All-About-Market-Caps .right h1 {
   margin-bottom: 50px;
 }
@@ -1739,6 +1787,30 @@ main .Why-Crypto .container img:nth-child(5) {
     right: 0;
   }
 }
+@media screen and (max-width: 768px) {
+  main .Why-Crypto .container img:nth-child(1) {
+    top: -15%;
+    left: 0;
+  }
+  main .Why-Crypto .container img:nth-child(2) {
+    bottom: 15%;
+    right: 15%;
+  }
+  main .Why-Crypto .container img:nth-child(3) {
+    bottom: 20%;
+    left: 28%;
+    -webkit-transform: translate(-50%, 0) rotate(45deg);
+            transform: translate(-50%, 0) rotate(45deg);
+  }
+  main .Why-Crypto .container img:nth-child(4) {
+    top: 0;
+    right: 0;
+  }
+  main .Why-Crypto .container img:nth-child(5) {
+    top: 5%;
+    right: 0;
+  }
+}
 main .Why-Crypto h2, main .Why-Crypto h1 {
   text-align: center;
 }
@@ -1922,6 +1994,34 @@ main .What-they-say .container img.back:nth-child(5) {
             transform: translate(-50%, 0) scale(1) rotate(-90deg);
     top: 7.5%;
     left: 80%;
+  }
+  main .What-they-say .container img.back:nth-child(5) {
+    -webkit-transform: translate(50%, 75%) scale(1.5) rotate(-45deg);
+            transform: translate(50%, 75%) scale(1.5) rotate(-45deg);
+    bottom: 5%;
+    right: 2.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .What-they-say .container img.back:nth-child(1) {
+    -webkit-transform: translate(-50%, 50%) scale(0.5) rotate(60deg);
+            transform: translate(-50%, 50%) scale(0.5) rotate(60deg);
+    bottom: 0;
+    left: 0;
+  }
+  main .What-they-say .container img.back:nth-child(2) {
+    -webkit-transform: translate(50%, -35%) scale(0.5) rotate(20deg);
+            transform: translate(50%, -35%) scale(0.5) rotate(20deg);
+    top: -5%;
+    right: -10%;
+  }
+  main .What-they-say .container img.back:nth-child(3) {
+    top: 7.5%;
+    left: -2.5%;
+  }
+  main .What-they-say .container img.back:nth-child(4) {
+    top: 7.5%;
+    left: 100%;
   }
   main .What-they-say .container img.back:nth-child(5) {
     -webkit-transform: translate(50%, 75%) scale(1.5) rotate(-45deg);
