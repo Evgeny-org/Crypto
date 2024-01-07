@@ -1,0 +1,2127 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #000;
+  font-family: "Urbanist";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 500;
+  text-shadow: 0px 0px 20px #9664bc, 0px 0px 60px #9664bc;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+p.text_1 {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  p.text_1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a.button {
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+hr {
+  background-color: #fff;
+}
+hr.horizontal {
+  -webkit-box-shadow: 0px 0px 30px 3px #9664bc;
+          box-shadow: 0px 0px 30px 3px #9664bc;
+  height: 1px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  hr.horizontal {
+    height: 5px;
+  }
+}
+
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
+  position: absolute;
+  z-index: -2;
+}
+
+main .All-About-Market-Caps .block, main .Trading-Made-Easy .blockOut, header .container nav .left a, header .container nav .middle .block_1, header .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .What-they-say .blockOut, main .Why-Crypto .block, main .Learn-from-the-best .blockInIn, main .Learn-from-the-best .block_1, main .Features .block, main .Trusted-and-Transparent .container .block, main .Trusted-and-Transparent .container .icons, main .Trade-Crypto .container .block .left, main .Trade-Crypto .container .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1024px) {
+  header {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    margin-top: 0;
+    z-index: 1;
+  }
+}
+header .container {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  header .container {
+    margin: 0px auto 15px auto;
+    padding: 0;
+    position: relative;
+  }
+}
+header .container nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  header .container nav .left a, header .container nav .middle a, header .container nav .right {
+    padding: 25px;
+  }
+}
+header .container nav .left a p {
+  font-weight: 600;
+  font-size: 18px;
+}
+header .container nav .left a img {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  header .container nav .left {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    top: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .container nav .left a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .container nav .left a img {
+    width: 100px;
+    margin-right: 0;
+  }
+  header .container nav .left a p {
+    font-size: 24px;
+  }
+}
+header .container nav .middle {
+  -webkit-transform: translate(-15%, 0);
+          transform: translate(-15%, 0);
+}
+header .container nav .middle a {
+  padding: 10px 10px;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 50px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+header .container nav .middle a:first-child {
+  margin-left: 0px;
+}
+header .container nav .middle a:last-child {
+  margin-right: 0px;
+}
+header .container nav .middle a:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 800;
+}
+header .container nav .middle .block_2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header .container nav .middle {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    padding: 0;
+  }
+  header .container nav .middle .block_1 {
+    width: 100%;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: block;
+    background-color: #fff;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  header .container nav .middle .block_1 a {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    padding: 30px 0;
+    margin: 0;
+  }
+  header .container nav .middle .block_1 a p {
+    padding: 30px 0;
+    margin: 0;
+  }
+  header .container nav .middle .block_1.active {
+    top: 160px;
+  }
+  header .container nav .middle .block_2 {
+    display: block;
+    width: 100px;
+  }
+  header .container nav .middle .block_2 a {
+    display: block;
+    padding: 25px;
+  }
+  header .container nav .middle .block_2 .block {
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  header .container nav .middle .block_2 .block:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .container nav .right {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    padding-top: 60px;
+    margin-bottom: 15px;
+  }
+  header .container nav .right img {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+main .Trade-Crypto, main .Trusted-and-Transparent, main .Features, main .Trading-Made-Easy, main .All-About-Market-Caps, main .Learn-from-the-best, main .Why-Crypto, main .What-they-say {
+  overflow-x: clip;
+}
+main .Trade-Crypto {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto {
+    margin-bottom: 50px;
+  }
+}
+main .Trade-Crypto .container {
+  position: relative;
+}
+main .Trade-Crypto .container .circle:nth-child(1) {
+  background-color: #9664bc;
+  top: 0;
+  left: -25%;
+}
+main .Trade-Crypto .container .circle:nth-child(2) {
+  background-color: #3b2ac1;
+  top: 50%;
+  left: -15%;
+}
+main .Trade-Crypto .container .circle:nth-child(3) {
+  background-color: #9664bc;
+  top: -15%;
+  right: -20%;
+}
+main .Trade-Crypto .container .circle:nth-child(4) {
+  background-color: #3b2ac1;
+  top: 50%;
+  right: -50%;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .circle:nth-child(1) {
+    background-color: #9664bc;
+    top: 0;
+    left: -80%;
+  }
+  main .Trade-Crypto .container .circle:nth-child(2) {
+    background-color: #3b2ac1;
+    top: 50%;
+    left: 75%;
+  }
+  main .Trade-Crypto .container .circle:nth-child(3) {
+    background-color: #9664bc;
+    top: -15%;
+    right: -50%;
+  }
+  main .Trade-Crypto .container .circle:nth-child(4) {
+    background-color: #3b2ac1;
+    top: 50%;
+    right: 75%;
+  }
+}
+main .Trade-Crypto .container img.back {
+  -webkit-filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+          filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+  position: absolute;
+}
+main .Trade-Crypto .container img.back:nth-child(5) {
+  -webkit-transform: translate(-100%, 0) rotate(45deg);
+          transform: translate(-100%, 0) rotate(45deg);
+  top: 0;
+  left: 0;
+}
+main .Trade-Crypto .container img.back:nth-child(6) {
+  -webkit-transform: scale(0.75) translate(125%, 0);
+          transform: scale(0.75) translate(125%, 0);
+  bottom: 30%;
+  right: 0;
+}
+main .Trade-Crypto .container img.back:nth-child(7) {
+  -webkit-transform: translate(50%, 0);
+          transform: translate(50%, 0);
+  top: 0;
+  right: 0;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container img.back:nth-child(5) {
+    -webkit-transform: translate(-25%, 0) rotate(45deg);
+            transform: translate(-25%, 0) rotate(45deg);
+    top: 25%;
+    left: 0;
+  }
+  main .Trade-Crypto .container img.back:nth-child(6) {
+    -webkit-transform: scale(0.75) translate(100%, 0);
+            transform: scale(0.75) translate(100%, 0);
+    bottom: 20%;
+    right: 0;
+  }
+  main .Trade-Crypto .container img.back:nth-child(7) {
+    -webkit-transform: translate(25%, 0);
+            transform: translate(25%, 0);
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container img.back:nth-child(5) {
+    top: 40%;
+    left: -10%;
+  }
+  main .Trade-Crypto .container img.back:nth-child(6) {
+    bottom: 15%;
+    right: 5%;
+  }
+  main .Trade-Crypto .container img.back:nth-child(7) {
+    -webkit-transform: scale(1.5) rotate(45deg);
+            transform: scale(1.5) rotate(45deg);
+    top: 2.5%;
+    right: 0;
+  }
+}
+main .Trade-Crypto .container .block {
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+}
+main .Trade-Crypto .container .block img {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+          box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block img {
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+            box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+  }
+}
+main .Trade-Crypto .container .block .left, main .Trade-Crypto .container .block .middle, main .Trade-Crypto .container .block .right {
+  width: 33.3333333333%;
+}
+main .Trade-Crypto .container .block .left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 5%;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .left {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .left .up {
+    margin-top: auto;
+    margin-bottom: 25px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .left .up {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .left .up h2 {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .left .down {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .left .down {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+main .Trade-Crypto .container .block .left h1 {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .left h1 {
+    white-space: nowrap;
+  }
+}
+main .Trade-Crypto .container .block .left .down .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .left .down .down {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+main .Trade-Crypto .container .block .left .down .down a {
+  margin-right: 30px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+main .Trade-Crypto .container .block .left .down .down a:last-child {
+  margin-right: 0;
+}
+main .Trade-Crypto .container .block .left .down .down a:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .left .down .down a {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 24px;
+  }
+  main .Trade-Crypto .container .block .left .down .down a:last-child {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .middle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .middle {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+            box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+  }
+}
+main .Trade-Crypto .container .block .middle img {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .middle img {
+    width: 400px;
+    float: right;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .middle img {
+    display: block;
+    margin: 0 auto 50px auto;
+    float: none;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 100%;
+    -webkit-transform: translate(0, -45%);
+            transform: translate(0, -45%);
+  }
+}
+main .Trade-Crypto .container .block .right {
+  margin-top: auto;
+  padding-left: 5%;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .right {
+    padding-left: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+main .Trade-Crypto .container .block .right img {
+  width: 80%;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .right img {
+    width: 50%;
+    -webkit-transform: translate(0, -10%);
+            transform: translate(0, -10%);
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .right img {
+    width: 75%;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trade-Crypto .container .block .right .right__block {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block .right .right__block {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding-left: 0;
+  }
+  main .Trade-Crypto .container .block .right .right__block img {
+    width: 400px;
+  }
+}
+main .Trade-Crypto .container .block h2 {
+  margin-bottom: 15px;
+}
+main .Trade-Crypto .container .block p {
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block p {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trade-Crypto .container .block h2, main .Trade-Crypto .container .block p {
+    text-align: center;
+  }
+}
+main .Trusted-and-Transparent {
+  margin-bottom: 100px;
+}
+main .Trusted-and-Transparent .container {
+  max-width: 1400px;
+  margin-bottom: 150px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container {
+    margin-bottom: 100px;
+  }
+}
+main .Trusted-and-Transparent .container .circle {
+  position: absolute;
+}
+main .Trusted-and-Transparent .container .circle:nth-child(1) {
+  background-color: #3b2ac1;
+  top: 75%;
+  right: -15%;
+}
+main .Trusted-and-Transparent .container .circle:nth-child(2) {
+  background-color: #9664bc;
+  bottom: 25%;
+  right: -30%;
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container .circle:nth-child(1) {
+    top: 75%;
+    right: 75%;
+  }
+  main .Trusted-and-Transparent .container .circle:nth-child(2) {
+    bottom: 25%;
+    right: -50%;
+  }
+}
+main .Trusted-and-Transparent .container .icons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trusted-and-Transparent .container .icons {
+    margin-bottom: 75px;
+  }
+}
+main .Trusted-and-Transparent .container .icons img:nth-child(2) {
+  -webkit-filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+          filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+  width: 50px;
+}
+main .Trusted-and-Transparent .container .icons img:last-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+main .Trusted-and-Transparent .container .icons img:last-child, main .Trusted-and-Transparent .container .icons img:first-child {
+  -webkit-filter: drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+          filter: drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container .icons img:first-child, main .Trusted-and-Transparent .container .icons img:nth-child(2), main .Trusted-and-Transparent .container .icons img:last-child {
+    width: 75px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trusted-and-Transparent .container .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+}
+main .Trusted-and-Transparent .container .block img {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+          box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+  width: 90%;
+}
+@media screen and (max-width: 1024px) {
+  main .Trusted-and-Transparent .container .block img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container .block img {
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+            box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+  }
+}
+main .Trusted-and-Transparent .container .block .left, main .Trusted-and-Transparent .container .block .right {
+  width: 25%;
+}
+main .Trusted-and-Transparent .container .block .left {
+  margin-top: auto;
+}
+main .Trusted-and-Transparent .container .block .middle {
+  width: 45%;
+  text-align: center;
+  padding: 100px 0;
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container .block .middle {
+    padding: 75px 0 50px 0;
+  }
+}
+main .Trusted-and-Transparent .container .block .middle h2 {
+  margin-bottom: 50px;
+}
+main .Trusted-and-Transparent .container .block .middle h1 {
+  margin-bottom: 50px;
+}
+main .Trusted-and-Transparent .container .block .right img {
+  float: right;
+}
+@media screen and (max-width: 1024px) {
+  main .Trusted-and-Transparent .container .block .left, main .Trusted-and-Transparent .container .block .middle, main .Trusted-and-Transparent .container .block .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trusted-and-Transparent .container .block .left img, main .Trusted-and-Transparent .container .block .middle img, main .Trusted-and-Transparent .container .block .right img {
+    float: none;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+main .Features {
+  margin-bottom: 75px;
+  position: relative;
+}
+main .Features hr {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+  main .Features hr {
+    top: 54%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Features hr {
+    top: 51%;
+  }
+}
+main .Features .container {
+  margin-bottom: 150px;
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  main .Features .container {
+    margin-bottom: 0;
+  }
+}
+main .Features .container .circle:nth-child(1) {
+  background-color: #3b2ac1;
+  top: 25%;
+  left: -25%;
+}
+main .Features .container .circle:nth-child(2) {
+  background-color: #9664bc;
+  top: 75%;
+  left: -10%;
+}
+main .Features h1 {
+  text-align: center;
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+main .Features .block .left, main .Features .block .right {
+  width: 25%;
+  margin-top: auto;
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block .left:first-child .down, main .Features .block .right:first-child .down {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block .left, main .Features .block .right {
+    width: 100%;
+  }
+}
+main .Features .block .left h2, main .Features .block .right h2 {
+  margin-bottom: 25px;
+}
+main .Features .block .left .up, main .Features .block .right .up {
+  margin-bottom: 250px;
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block .left .up, main .Features .block .right .up {
+    margin-bottom: 50px;
+    width: 75%;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Features .block .left .up, main .Features .block .right .up {
+    margin: 0 auto 50px auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block .left .down, main .Features .block .right .down {
+    width: 75%;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Features .block .left .down, main .Features .block .right .down {
+    margin: 0 auto;
+  }
+}
+main .Features .block .middle {
+  width: 350px;
+  padding: 50px 0;
+  color: #000;
+  background-color: #fff;
+  border: 8px solid #fff;
+  -webkit-box-shadow: inset 0px 0px 20px 1px grey, 0px 0px 30px 3px #9664bc;
+          box-shadow: inset 0px 0px 20px 1px grey, 0px 0px 30px 3px #9664bc;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  main .Features .block .middle {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Features .block .middle {
+    margin: 200px 0 250px 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+main .Features .block .middle img {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+main .Features .block .middle p.logo {
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+main .Features .block .middle h2 {
+  margin-bottom: 25px;
+}
+main .Features .block .middle form p {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 800;
+}
+main .Features .block .middle input {
+  margin-bottom: 25px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: 250px;
+}
+main .Features .block .middle input:last-child {
+  margin-bottom: 50px;
+}
+main .Features .block .middle a {
+  color: #000;
+  border-color: black;
+}
+main .Features .block .middle a.button {
+  margin-bottom: 25px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+main .Features .block .middle a.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+main .Features .block .middle p.total {
+  margin-bottom: 25px;
+  font-weight: 800;
+  font-size: 12px;
+}
+main .Features .block .middle p.course {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 800;
+}
+main .Features .block .middle .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .Features .block .middle .footer a {
+  margin: 0 15px;
+  color: grey;
+  font-size: 12px;
+  font-weight: 800;
+}
+main .Features .block .middle .footer a:hover {
+  text-decoration: underline;
+}
+main .Trading-Made-Easy {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+main .Trading-Made-Easy .container {
+  position: relative;
+}
+main .Trading-Made-Easy .container img.back {
+  position: absolute;
+}
+main .Trading-Made-Easy .container img.back:nth-child(1) {
+  -webkit-transform: translate(-80%, 15%) scale(0.8) rotate(-14deg);
+          transform: translate(-80%, 15%) scale(0.8) rotate(-14deg);
+  bottom: 0;
+  left: 0;
+}
+main .Trading-Made-Easy .container img.back:nth-child(2) {
+  -webkit-transform: translate(90%, 25%);
+          transform: translate(90%, 25%);
+  top: 0;
+  right: 0;
+}
+main .Trading-Made-Easy .container img.back:nth-child(3), main .Trading-Made-Easy .container img.back:nth-child(4) {
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 5%;
+  left: 0;
+}
+main .Trading-Made-Easy .container img.back:nth-child(4) {
+  top: 10%;
+}
+main .Trading-Made-Easy .container img.back:nth-child(5) {
+  bottom: 10%;
+  right: -10%;
+}
+@media screen and (max-width: 1440px) {
+  main .Trading-Made-Easy .container img.back:nth-child(1) {
+    left: 55%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(2) {
+    top: -15%;
+    right: 52.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(3), main .Trading-Made-Easy .container img.back:nth-child(4) {
+    left: 30%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(4) {
+    top: 12.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(5) {
+    right: -4%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .container img.back:nth-child(1) {
+    left: 49%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(2) {
+    top: -15%;
+    right: 7.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(3), main .Trading-Made-Easy .container img.back:nth-child(4) {
+    left: -5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(4) {
+    top: 12.5%;
+  }
+  main .Trading-Made-Easy .container img.back:nth-child(5) {
+    right: -12%;
+  }
+}
+main .Trading-Made-Easy .blockOut {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .blockOut {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+    margin: 50px 0;
+  }
+}
+main .Trading-Made-Easy .left {
+  width: 60%;
+  padding-right: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .left {
+    margin-right: auto;
+    width: 75%;
+    padding-right: 0;
+    margin-bottom: -40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .left {
+    margin: 0 auto 50px auto;
+    width: 100%;
+  }
+}
+main .Trading-Made-Easy .left h2 {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .left h2 {
+    margin-bottom: 50px;
+  }
+}
+main .Trading-Made-Easy .left h1 {
+  margin-bottom: 20px;
+  text-shadow: none;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .left h1 {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .left h1 {
+    white-space: normal;
+    margin-bottom: 50px;
+  }
+}
+main .Trading-Made-Easy .left p {
+  margin-bottom: 50px;
+}
+main .Trading-Made-Easy .left a {
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+main .Trading-Made-Easy .left a:hover {
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .left a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .left a {
+    position: relative;
+    display: block;
+    width: 40%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 50px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+}
+main .Trading-Made-Easy .right {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 50px 0 0px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .right {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+main .Trading-Made-Easy .right hr {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+  z-index: 1;
+}
+@media screen and (min-width: 1025px) {
+  main .Trading-Made-Easy .right hr {
+    top: 0;
+  }
+}
+main .Trading-Made-Easy .right hr:nth-child(1) {
+  left: 0;
+}
+main .Trading-Made-Easy .right hr:nth-child(3) {
+  right: 0px;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .right hr:nth-child(1) {
+    top: 0;
+    width: 100%;
+    height: 1px;
+  }
+  main .Trading-Made-Easy .right hr:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+  }
+}
+main .Trading-Made-Easy .right .block {
+  margin: 100px 0;
+  border: 1px solid #000;
+  z-index: 1;
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .right .block {
+    width: 50%;
+    margin: 0 0 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .right .block {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border: 5px solid #000;
+  }
+}
+main .Trading-Made-Easy .right .block img {
+  width: 200%;
+  -webkit-transform: translate(-175px, 0);
+          transform: translate(-175px, 0);
+}
+@media screen and (max-width: 1024px) {
+  main .Trading-Made-Easy .right .block img {
+    width: 100%;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Trading-Made-Easy .right .block img {
+    width: 200%;
+    -webkit-transform: translate(0, -60%);
+            transform: translate(0, -60%);
+  }
+}
+main .All-About-Market-Caps {
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps {
+    margin-bottom: 75px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+main .All-About-Market-Caps .left {
+  width: 40%;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+          box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .left {
+    width: 60%;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .left {
+    width: 100%;
+    height: 400px;
+    border-right: 0;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+            box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+main .All-About-Market-Caps .left img {
+  width: 175%;
+  -webkit-transform: translate(-25%, 0);
+          transform: translate(-25%, 0);
+}
+@media screen and (max-width: 1440px) {
+  main .All-About-Market-Caps .left img {
+    width: 200%;
+    -webkit-transform: translate(-20%, 0);
+            transform: translate(-20%, 0);
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .left img {
+    width: 100%;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .left img {
+    width: 150%;
+    -webkit-transform: translate(-10%, -45%);
+            transform: translate(-10%, -45%);
+  }
+}
+main .All-About-Market-Caps .right {
+  width: 60%;
+  padding: 0 225px;
+  text-align: center;
+  position: relative;
+}
+@media screen and (max-width: 1680px) {
+  main .All-About-Market-Caps .right {
+    padding: 0 75px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  main .All-About-Market-Caps .right {
+    padding: 100px 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .right {
+    text-align: right;
+    margin-left: auto;
+    width: 100%;
+    margin-top: -400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .right {
+    margin-top: 0;
+  }
+}
+main .All-About-Market-Caps .right img {
+  -webkit-filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+          filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+  position: absolute;
+  right: 15%;
+}
+main .All-About-Market-Caps .right img:nth-child(1) {
+  top: -25%;
+}
+main .All-About-Market-Caps .right img:nth-child(2) {
+  top: 125%;
+}
+main .All-About-Market-Caps .right img:nth-child(3) {
+  top: 125%;
+  right: 25%;
+}
+@media screen and (max-width: 1440px) {
+  main .All-About-Market-Caps .right img:nth-child(1) {
+    top: 5%;
+    right: 17.5%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(2), main .All-About-Market-Caps .right img:nth-child(3) {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  main .All-About-Market-Caps .right img:nth-child(2) {
+    top: 78%;
+    right: 10%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(3) {
+    top: 78%;
+    right: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .right img:nth-child(1) {
+    top: 0;
+    right: 22.5%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(2), main .All-About-Market-Caps .right img:nth-child(3) {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  main .All-About-Market-Caps .right img:nth-child(2) {
+    top: 82.5%;
+    right: 20%;
+  }
+  main .All-About-Market-Caps .right img:nth-child(3) {
+    top: 82.5%;
+    right: 25%;
+  }
+}
+main .All-About-Market-Caps .right h1 {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+  main .All-About-Market-Caps .right h1 {
+    width: 35%;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .right h1 {
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+}
+main .All-About-Market-Caps .right p {
+  margin-bottom: 50px;
+}
+main .All-About-Market-Caps .right a {
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+main .All-About-Market-Caps .right a:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  main .All-About-Market-Caps .right a {
+    display: block;
+    width: 40%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 50px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+}
+main .Learn-from-the-best {
+  position: relative;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best {
+    margin-bottom: 75px;
+  }
+}
+main .Learn-from-the-best .container {
+  position: relative;
+}
+main .Learn-from-the-best .container .circle:nth-child(1) {
+  background-color: #9664bc;
+  top: 15%;
+  left: -30%;
+}
+main .Learn-from-the-best .container .circle:nth-child(2) {
+  background-color: #3b2ac1;
+  top: 35%;
+  left: -30%;
+}
+main .Learn-from-the-best .container .circle:nth-child(3) {
+  background-color: #9664bc;
+  top: 0;
+  right: -25%;
+}
+main .Learn-from-the-best .container .circle:nth-child(4) {
+  background-color: #3b2ac1;
+  top: 35%;
+  right: -50%;
+}
+main .Learn-from-the-best .container .circle:nth-child(5) {
+  background-color: #9664bc;
+  top: 70%;
+  right: -50%;
+}
+main .Learn-from-the-best img:first-child {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+          box-shadow: 0 0 30px 1px #9664bc, 0 0 22px 1px #9664bc, 0 0 15px 1px #9664bc, 0 0 5px 1px #9664bc;
+}
+@media screen and (max-width: 768px) {
+  main .Learn-from-the-best img:first-child {
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+            box-shadow: 0 0 60px 1px #9664bc, 0 0 50px 1px #9664bc, 0 0 25px 1px #9664bc, 0 0 10px 1px #9664bc;
+  }
+}
+main .Learn-from-the-best h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best h1 {
+    margin-bottom: 75px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Learn-from-the-best .block_1 {
+    position: relative;
+    height: 550px;
+    display: none;
+  }
+}
+main .Learn-from-the-best .block_2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  main .Learn-from-the-best .block_2 {
+    display: block;
+    width: 100%;
+    width: calc(100% + 6px);
+    height: 100%;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+  }
+}
+main .Learn-from-the-best .block_2 .swiper {
+  width: 100%;
+  padding: 75px;
+}
+main .Learn-from-the-best .block_2 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+main .Learn-from-the-best .block_2 .swiper-slide img {
+  display: block;
+  -webkit-box-reflect: below 100px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.0666666667), rgba(0, 0, 0, 0.0666666667));
+}
+main .Learn-from-the-best .block_2 .swiper-slide img:last-child {
+  width: 50px;
+}
+main .Learn-from-the-best .left, main .Learn-from-the-best .right {
+  width: 40%;
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best .left, main .Learn-from-the-best .right {
+    width: 48%;
+  }
+}
+main .Learn-from-the-best .blockIn {
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best .blockIn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+main .Learn-from-the-best .blockIn:last-child {
+  margin-bottom: 0;
+}
+main .Learn-from-the-best .blockIn img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+main .Learn-from-the-best .blockIn img:nth-child(2) {
+  margin: auto 0;
+  width: 10%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best .blockIn img {
+    width: 100%;
+  }
+}
+main .Learn-from-the-best .blockInIn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .Learn-from-the-best hr {
+  position: absolute;
+  left: 0;
+}
+main .Learn-from-the-best hr:nth-child(2) {
+  top: 40%;
+}
+main .Learn-from-the-best hr:nth-child(3) {
+  bottom: 27.5%;
+}
+@media screen and (max-width: 1024px) {
+  main .Learn-from-the-best hr:nth-child(2) {
+    top: 45%;
+  }
+  main .Learn-from-the-best hr:nth-child(3) {
+    bottom: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Learn-from-the-best hr:nth-child(2) {
+    top: 25%;
+  }
+  main .Learn-from-the-best hr:nth-child(3) {
+    bottom: 15%;
+  }
+}
+main .Why-Crypto {
+  background-color: #fff;
+  color: #000;
+  padding: 150px 0;
+  position: relative;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto {
+    padding: 75px 0;
+    margin-bottom: 75px;
+  }
+}
+main .Why-Crypto .container {
+  position: relative;
+}
+main .Why-Crypto .container img {
+  position: absolute;
+}
+main .Why-Crypto .container img:nth-child(1) {
+  top: -20%;
+  left: 0;
+  -webkit-transform: translate(-75%, 0) rotate(45deg) scale(0.8);
+          transform: translate(-75%, 0) rotate(45deg) scale(0.8);
+}
+main .Why-Crypto .container img:nth-child(2) {
+  bottom: -30%;
+  right: 0;
+  -webkit-transform: translate(100%, 0) rotate(15deg) scale(0.8);
+          transform: translate(100%, 0) rotate(15deg) scale(0.8);
+}
+main .Why-Crypto .container img:nth-child(3) {
+  bottom: -17.5%;
+  left: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+main .Why-Crypto .container img:nth-child(4) {
+  top: -5%;
+  right: 0;
+  -webkit-transform: translate(50%, 0);
+          transform: translate(50%, 0);
+}
+main .Why-Crypto .container img:nth-child(5) {
+  top: 5%;
+  right: 0;
+  -webkit-transform: translate(50%, 0);
+          transform: translate(50%, 0);
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto .container img:nth-child(2) {
+    bottom: -30%;
+    right: 0;
+  }
+  main .Why-Crypto .container img:nth-child(3) {
+    bottom: 25%;
+    left: 28%;
+    -webkit-transform: translate(-50%, 0) rotate(45deg);
+            transform: translate(-50%, 0) rotate(45deg);
+  }
+  main .Why-Crypto .container img:nth-child(4) {
+    top: 0;
+    right: 0;
+  }
+  main .Why-Crypto .container img:nth-child(5) {
+    top: 5%;
+    right: 0;
+  }
+}
+main .Why-Crypto h2, main .Why-Crypto h1 {
+  text-align: center;
+}
+main .Why-Crypto h2 {
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+main .Why-Crypto h1 {
+  margin-bottom: 200px;
+  font-weight: 500;
+  text-shadow: none;
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto h1 {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Why-Crypto h1 {
+    font-weight: 800;
+  }
+}
+main .Why-Crypto .block {
+  margin: 0 -25px;
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  main .Why-Crypto .block .left, main .Why-Crypto .block .middle, main .Why-Crypto .block .right {
+    width: 100%;
+  }
+  main .Why-Crypto .block .middle {
+    padding-left: 30%;
+  }
+  main .Why-Crypto .block .right {
+    padding-left: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Why-Crypto .block .left, main .Why-Crypto .block .middle, main .Why-Crypto .block .right {
+    width: 100%;
+  }
+  main .Why-Crypto .block .middle {
+    padding-left: 0;
+  }
+  main .Why-Crypto .block .right {
+    padding-left: 0;
+  }
+}
+main .Why-Crypto .block div {
+  margin: 0 25px;
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto .block div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 50px 0;
+  }
+  main .Why-Crypto .block div:last-child {
+    margin: 0;
+  }
+}
+main .Why-Crypto .block h2 {
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  main .Why-Crypto .block h2 {
+    text-align: center;
+  }
+}
+main .Why-Crypto .block p {
+  font-weight: 600;
+}
+main .Why-Crypto hr {
+  background-color: #000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  main .Why-Crypto hr {
+    top: 28%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .Why-Crypto hr {
+    top: 20%;
+  }
+}
+main .What-they-say {
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1440px) {
+  main .What-they-say {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .What-they-say {
+    margin-bottom: 75px;
+  }
+}
+main .What-they-say .container {
+  position: relative;
+}
+main .What-they-say .container img.back {
+  -webkit-filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+          filter: invert(100%) drop-shadow(0px 0px 20px #9664bc) drop-shadow(0px 0px 15px #9664bc) drop-shadow(0px 0px 5px #9664bc);
+  position: absolute;
+}
+main .What-they-say .container img.back:nth-child(1) {
+  -webkit-transform: translate(-50%, 50%) scale(0.25) rotate(60deg);
+          transform: translate(-50%, 50%) scale(0.25) rotate(60deg);
+  bottom: 0;
+  left: 0;
+}
+main .What-they-say .container img.back:nth-child(2) {
+  -webkit-transform: translate(50%, -35%) scale(0.25);
+          transform: translate(50%, -35%) scale(0.25);
+  top: 0;
+  right: 0;
+}
+main .What-they-say .container img.back:nth-child(3) {
+  -webkit-transform: translate(-50%, 0) scale(1.5);
+          transform: translate(-50%, 0) scale(1.5);
+  top: 0;
+  left: 0;
+}
+main .What-they-say .container img.back:nth-child(4) {
+  -webkit-transform: translate(125%, 0) scale(1.5);
+          transform: translate(125%, 0) scale(1.5);
+  top: 0;
+  left: 0;
+}
+main .What-they-say .container img.back:nth-child(5) {
+  -webkit-transform: translate(50%, 75%) scale(1.5);
+          transform: translate(50%, 75%) scale(1.5);
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 1440px) {
+  main .What-they-say .container img.back:nth-child(2) {
+    -webkit-transform: translate(60%, -25%) scale(0.25);
+            transform: translate(60%, -25%) scale(0.25);
+    top: 0;
+    right: 0;
+  }
+  main .What-they-say .container img.back:nth-child(5) {
+    -webkit-transform: translate(25%, 75%) scale(1.5);
+            transform: translate(25%, 75%) scale(1.5);
+    bottom: 5%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .What-they-say .container img.back:nth-child(1) {
+    bottom: 0;
+    left: 0;
+  }
+  main .What-they-say .container img.back:nth-child(2) {
+    top: 0;
+    right: 0;
+  }
+  main .What-they-say .container img.back:nth-child(3) {
+    -webkit-transform: translate(-50%, 0) scale(1) rotate(90deg);
+            transform: translate(-50%, 0) scale(1) rotate(90deg);
+    top: 7.5%;
+    left: -2.5%;
+  }
+  main .What-they-say .container img.back:nth-child(4) {
+    -webkit-transform: translate(-50%, 0) scale(1) rotate(-90deg);
+            transform: translate(-50%, 0) scale(1) rotate(-90deg);
+    top: 7.5%;
+    left: 80%;
+  }
+  main .What-they-say .container img.back:nth-child(5) {
+    -webkit-transform: translate(50%, 75%) scale(1.5) rotate(-45deg);
+            transform: translate(50%, 75%) scale(1.5) rotate(-45deg);
+    bottom: 5%;
+    right: 2.5%;
+  }
+}
+main .What-they-say .container .circle:nth-child(6) {
+  background-color: #9664bc;
+  top: -50%;
+  left: -50%;
+}
+main .What-they-say .container .circle:nth-child(7) {
+  background-color: #3b2ac1;
+  bottom: -100%;
+  left: -60%;
+}
+main .What-they-say .container .circle:nth-child(8) {
+  background-color: #9664bc;
+  top: 30%;
+  right: -50%;
+}
+main .What-they-say .container .circle:nth-child(9) {
+  background-color: #3b2ac1;
+  top: 80%;
+  right: -50%;
+}
+@media screen and (max-width: 1024px) {
+  main .What-they-say .container .circle:nth-child(7) {
+    bottom: -70%;
+  }
+  main .What-they-say .container .circle:nth-child(9) {
+    top: 60%;
+  }
+}
+main .What-they-say .blockOut {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  main .What-they-say .blockOut {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+main .What-they-say .left, main .What-they-say .right {
+  width: 35%;
+}
+@media screen and (max-width: 1440px) {
+  main .What-they-say .left, main .What-they-say .right {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .What-they-say .left, main .What-they-say .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .What-they-say .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .What-they-say .left h1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .What-they-say .left h2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  main .What-they-say .left h2 {
+    margin-bottom: 50px;
+  }
+}
+main .What-they-say .left h1 {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  main .What-they-say .left h1 {
+    margin-bottom: 75px;
+  }
+}
+main .What-they-say .right {
+  -webkit-transform: translate(-25%, 0);
+          transform: translate(-25%, 0);
+  position: relative;
+}
+@media screen and (max-width: 1440px) {
+  main .What-they-say .right {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+main .What-they-say .right div:last-child {
+  margin-bottom: 150px;
+}
+main .What-they-say .right img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+@media screen and (max-width: 768px) {
+  main .What-they-say .right img {
+    width: 10%;
+    -webkit-transform: translate(-50%, 0) rotate(-90deg);
+            transform: translate(-50%, 0) rotate(-90deg);
+  }
+}
+main .What-they-say .right .block {
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1440px) {
+  main .What-they-say .right .block {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .What-they-say .right .block {
+    margin-bottom: 100px;
+  }
+}
+main .What-they-say .right p {
+  margin-bottom: 15px;
+}
+
+footer .container {
+  padding: 100px 0 50px 0;
+}
+@media screen and (max-width: 1440px) {
+  footer .container {
+    padding: 100px 25px 50px 25px;
+  }
+}
+footer .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  footer .container .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .container .nav div {
+    margin-bottom: 50px;
+  }
+  footer .container .nav div:last-child {
+    margin-bottom: 25px;
+  }
+}
+footer .container .nav h2 {
+  margin-bottom: 20px;
+}
+footer .container .nav a {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 15px;
+}
+footer .container .nav a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  footer .container .nav a {
+    font-size: 24px;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 0;
+  }
+}
+footer .container p.copyright {
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  footer .container p.copyright {
+    text-align: center;
+    font-size: 24px;
+  }
+}
